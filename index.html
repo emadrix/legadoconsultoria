@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emadrix | Inteligência em Gestão de Manutenção (PCM)</title>
+    <title>Emadrix | Assessoria e Consultoria Industrial (PCM e PCP)</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
         body { color: #333; line-height: 1.6; background-color: #f9fbfd; scroll-behavior: smooth; }
@@ -45,13 +45,16 @@
 
         section { padding: 6rem 5%; }
         .section-title { text-align: center; font-size: 2.5rem; color: var(--primary); margin-bottom: 1rem; }
-        .section-subtitle { text-align: center; color: #666; margin-bottom: 4rem; font-size: 1.1rem; }
+        .section-subtitle { text-align: center; color: #666; margin-bottom: 4rem; font-size: 1.1rem; max-width: 800px; margin-left: auto; margin-right: auto; }
         
         .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2.5rem; max-width: 1200px; margin: 0 auto; }
         .card { background: var(--light); padding: 3rem 2rem; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); text-align: center; transition: 0.3s; border-bottom: 5px solid transparent; }
         .card:hover { transform: translateY(-10px); border-bottom: 5px solid var(--secondary); }
         .card h3 { color: var(--primary); margin-bottom: 1rem; font-size: 1.5rem; }
         .card p { color: #555; font-size: 1rem; }
+        
+        .card ul { text-align: left; list-style-type: disc; padding-left: 1.5rem; color: #555; margin-top: 1rem; }
+        .card ul li { margin-bottom: 0.5rem; font-size: 0.95rem; }
 
         .benefits { background-color: #f0f4f8; }
         .contact { background-color: var(--primary); color: var(--light); text-align: center; }
@@ -69,66 +72,81 @@
         <nav>
             <ul>
                 <li><a href="#inicio">Início</a></li>
-                <li><a href="#ganhos">Vantagens</a></li>
-                <li><a href="#recursos">Recursos</a></li>
-                <li><a href="#contato" class="btn-demo">Agendar Demo</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#pcm-pcp">PCM e PCP</a></li>
+                <li><a href="#contato" class="btn-demo">Fale Conosco</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="inicio" class="hero">
-        <h1>Sua Fábrica Não Para.<br>Gestão de Manutenção de Alto Nível.</h1>
-        <p>Transforme seu PCM com o software Emadrix. Controle ordens de serviço, indicadores e preventivas em uma plataforma robusta desenhada para a realidade industrial.</p>
-        <a href="#contato" class="btn-main">Começar Agora</a>
+        <h1>Excelência em Assessoria e<br>Consultoria Industrial.</h1>
+        <p>A Emadrix ajuda a transformar a sua operação através de estruturação de processos, engenharia de manutenção e controle de produção de alto desempenho.</p>
+        <a href="#contato" class="btn-main">Falar com Especialista</a>
     </section>
 
-    <section id="ganhos" class="benefits">
-        <h2 class="section-title">O que sua empresa ganha?</h2>
-        <p class="section-subtitle">A Emadrix entrega os resultados que o financeiro e a operação precisam.</p>
+    <section id="servicos" class="benefits">
+        <h2 class="section-title">Como Atuamos</h2>
+        <p class="section-subtitle">Prestamos assessoria e consultoria industrial direcionadas para otimizar a sua planta e organizar a rotina produtiva.</p>
         <div class="grid">
             <div class="card">
-                <h3>Redução de Downtime</h3>
-                <p>Antecipe falhas antes que elas parem sua linha de produção. Aumente a disponibilidade de máquinas críticas.</p>
+                <h3>Mapeamento de Processos</h3>
+                <p>Análise detalhada do cenário atual da sua indústria para identificar gargalos, perdas e oportunidades reais de melhoria operacional.</p>
             </div>
             <div class="card">
-                <h3>Eliminação do Papel</h3>
-                <p>Ordens de serviço 100% digitais. Acabe com os formulários rasurados e a perda de histórico no chão de fábrica.</p>
+                <h3>Fluxo de Processo</h3>
+                <p>Construção e otimização do fluxo produtivo, garantindo fluidez, organização no layout e eficiência no trânsito de materiais e informações.</p>
             </div>
             <div class="card">
-                <h3>Indicadores em Tempo Real</h3>
-                <p>Acompanhe MTBF, MTTR e custos de manutenção sem precisar de planilhas complexas ou processamento manual.</p>
+                <h3>Procedimentos de Produção</h3>
+                <p>Elaboração de procedimentos operacionais padrão (POP) robustos e claros para assegurar a padronização e a qualidade da fabricação.</p>
             </div>
         </div>
     </section>
 
-    <section id="recursos">
-        <h2 class="section-title">Melhorias Diretas no seu App</h2>
-        <p class="section-subtitle">Funcionalidades pensadas por quem entende de manutenção.</p>
+    <section id="pcm-pcp">
+        <h2 class="section-title">Criação e Gestão de PCM e PCP</h2>
+        <p class="section-subtitle">Estruturamos os pilares fundamentais para o planejamento, controle e confiabilidade da sua fábrica.</p>
         <div class="grid">
             <div class="card">
-                <h3>Gestão de Materiais</h3>
-                <p>Controle o histórico de troca de peças da sua máquina e obtenha dados específicos de estoque mínimo e máximo.</p>
+                <h3>Pilares de Gestão</h3>
+                <p>Implantamos metodologias focadas na eficiência operacional e na tomada de decisão baseada em dados:</p>
+                <ul>
+                    <li>Gestão de rotinas</li>
+                    <li>Gestão de indicadores</li>
+                    <li>Melhoria contínua</li>
+                </ul>
             </div>
             <div class="card">
-                <h3>Cronograma de Preventivas</h3>
-                <p>Automatize o plano de lubrificação e inspeções periódicas, garantindo que nenhum ativo seja esquecido.</p>
+                <h3>Controle e Operação</h3>
+                <p>Organização completa dos recursos físicos e das demandas de serviços da sua planta industrial:</p>
+                <ul>
+                    <li>Controle de estoque</li>
+                    <li>Controle de serviços</li>
+                    <li>Análise de falha</li>
+                </ul>
             </div>
             <div class="card">
-                <h3>Mobilidade Total</h3>
-                <p>Seus mecânicos acessam e baixam ordens de serviço via tablet ou smartphone de qualquer lugar da planta.</p>
+                <h3>Capacitação e Treinamento</h3>
+                <p>Desenvolvimento técnico das equipes para garantir a sustentabilidade dos processos implantados:</p>
+                <ul>
+                    <li>Treinamentos de manutenção</li>
+                    <li>Alinhamento de equipes operacionais</li>
+                    <li>Cultura de confiabilidade</li>
+                </ul>
             </div>
         </div>
     </section>
 
     <section id="contato" class="contact">
-        <h2 class="section-title">Pronto para o Próximo Nível?</h2>
-        <p>Solicite um diagnóstico gratuito da sua gestão atual e veja como a Emadrix pode ajudar.</p>
-        <a href="https://wa.me/5575998952628?text=Olá, gostaria de uma demonstração do software Emadrix." target="_blank" class="btn-whatsapp">Conversar via WhatsApp</a>
+        <h2 class="section-title">Pronto para Elevar o Nível da sua Indústria?</h2>
+        <p>Entre em contato conosco e descubra como podemos ajudar a sua empresa a alcançar novos patamares de eficiência.</p>
+        <a href="https://wa.me/5575998952628?text=Olá, gostaria de saber mais sobre os serviços de consultoria da Emadrix." target="_blank" class="btn-whatsapp">Conversar via WhatsApp</a>
         <p style="margin-top: 2.5rem; opacity: 0.8;">contato@emadrix.com.br</p>
     </section>
 
     <footer>
-        <p>© 2026 Emadrix | Inteligência em Manutenção Industrial. São Lourenço do Oeste, SC.</p>
+        <p>© 2026 Emadrix | Assessoria e Consultoria Industrial. São Lourenço do Oeste, SC.</p>
     </footer>
 </body>
 </html>
